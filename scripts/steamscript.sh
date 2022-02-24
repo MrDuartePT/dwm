@@ -6,7 +6,7 @@
 #Certain Steam games need to disable primary display to work in fullscreen without mess up fulscreen resolution
 #This script ask to self restart dwm after close the game because because reativing the primary display make them mirror
 #If exist know i better to write this script create a pull request.
-#Use xrandr to find the display name (exemple output on the patch if you clone my repo or on this link:  
+#Use xrandr to find the display name (exemple output on the patch if you clone my repo or on this link: https://github.com/MrDuartePT/dwm/blob/main/scripts/xrand.exemple.steamscript.sh.png  
 #Change eDP1 bellow to you screen name and and this to launch options: 'xrandr --output eDP1 --off; MANGOHUD=1; %command%; /patch/to/the/script', change eDPI and patch/to/the/script
 
 xrandr --output eDP1 --auto
